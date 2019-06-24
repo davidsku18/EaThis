@@ -1,15 +1,15 @@
 package com.davidsku.eathis;
 
 import java.awt.*;
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class Handler {
 
-    LinkedList<EaThisObject> object = new LinkedList<EaThisObject>();
+    ArrayList<EaThisObject> object = new ArrayList<EaThisObject>();
 
     private boolean up = false, down = false, right = false, left = false;
-
-
+    
     public void tick() {
         for(int i = 0; i < object.size(); i++) {
             EaThisObject tempObject = object.get(i);
