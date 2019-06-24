@@ -1,5 +1,10 @@
 language: java
 
+addons:
+  apt:
+    packages:
+    - graphviz
+
 jdk:
   - oraclejdk12
   - openjdk12
