@@ -3,7 +3,7 @@ language: java
 addons:
   apt:
     packages:
-    - graphviz
+    - ant
 
 jdk:
   - oraclejdk12
