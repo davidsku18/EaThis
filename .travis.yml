@@ -1,0 +1,10 @@
+language: java
+
+addons:
+  apt:
+    packages:
+    - ant
+
+jdk:
+  - oraclejdk12
+  - openjdk12
