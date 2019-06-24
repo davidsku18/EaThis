@@ -25,6 +25,9 @@ public class Bullet extends EaThisObject {
                     handler.removeObject(this);
                 }
             }
+            if(velY == 0 && velX == 0) {
+                handler.removeObject(this);
+            }
         }
     }
 
